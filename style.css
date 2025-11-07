@@ -97,3 +97,6 @@ input:invalid {
 input:valid {
   border: #74b78e solid 2px;
 }
+input:focus {
+  box-shadow: 5px 5px 5px #74b78e;
+}
