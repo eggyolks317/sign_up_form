@@ -1,0 +1,99 @@
+@font-face {
+  font-family: pikmin_font;
+  src: url(assets/font/pikminneue.otf);
+}
+body {
+  font-family: monospace;
+}
+#main_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+h1 {
+  font-family: pikmin_font;
+  color: black;
+}
+h2 {
+  color: #74b78e;
+}
+.heading {
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  opacity: 60%;
+  padding: 20px 50px;
+  height: fit-content;
+  width: 50vh;
+}
+.background {
+  background: url(assets/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  height: 70px;
+  opacity: 100%;
+  width: auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+#form_intro {
+  color: green;
+}
+#form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: left;
+}
+#names,
+#contacts,
+#passwords {
+  display: flex;
+  justify-content: space-around;
+}
+.input_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 350px;
+}
+label {
+  width: 100px;
+}
+input {
+  font-family: monospace;
+  padding: 10px;
+  width: 250px;
+  border-radius: 15px;
+}
+button {
+  width: 150px;
+  height: fit-content;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #74b78e;
+  color: white;
+  border: transparent solid;
+  border-radius: 30px;
+}
+input:invalid {
+  border: #fa8072 solid 2px;
+}
+input:valid {
+  border: #74b78e solid 2px;
+}

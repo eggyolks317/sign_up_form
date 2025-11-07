@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pikmin Club</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="main_container">
+      <div class="background">
+        <div class="heading">
+          <img src="assets/pikmin_logo.png" alt="pikmin logo" id="logo" />
+          <h1 id="logo_text">Pikmin Club</h1>
+        </div>
+      </div>
+      <form class="form" method="post">
+        <div class="container" id="form_intro">
+          <h2>Welcome to PIKMIN Club</h2>
+          <h3>What is this club doing???</h3>
+          <p>
+            <strong>Here</strong>, you will be meeting other PIKMIN players and
+            receive monthly newsletter about events in PIKMIN 4 and PIKMIN
+            BLOOM!
+          </p>
+          <h3>What are PIKMINs??</h3>
+          <p>
+            Pikmin are a half-plant, half-animal species of creatures from the
+            Pikmin series. They average at 1 inch (2.5 centimeters) tall up to
+            their stems, eat nectar (which matures them into flower Pikmin) and
+            breathe oxygen. They also weigh 1 gram (0.0353 ounces).
+          </p>
+          <h3>Ready to join??</h3>
+          <p>If you would like to join us, please fill in the form below!</p>
+        </div>
+        <div class="container" id="form">
+          <h2>Sign Up Here!</h2>
+          <div class="container" id="names">
+            <div class="input_container">
+              <label for="first_name">First Name</label>
+              <input
+                type="text"
+                id="first_name"
+                placeholder="Yellow"
+                required
+              />
+            </div>
+            <div class="input_container">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" placeholder="Pikmin" required />
+            </div>
+          </div>
+          <div class="container" id="contacts">
+            <div class="input_container">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="blue@pikmin.com"
+                required
+              />
+            </div>
+            <div class="input_container">
+              <label for="phone_number">Phone Number</label>
+              <input
+                type="tel"
+                id="phone_number"
+                placeholder="9362947253"
+                required
+              />
+            </div>
+          </div>
+          <div class="container" id="passwords">
+            <div class="input_container">
+              <label for="password">Password</label>
+              <input type="password" id="password" minlength="8" required />
+            </div>
+            <div class="input_container">
+              <label for="confirm_password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm_password"
+                minlength="8"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
