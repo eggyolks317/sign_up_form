@@ -5,6 +5,10 @@
 body {
   font-family: monospace;
 }
+h3,
+p {
+  color: grey;
+}
 #main_container {
   display: flex;
   justify-content: space-around;
@@ -16,7 +20,7 @@ h1 {
   color: black;
 }
 h2 {
-  color: #74b78e;
+  color: green;
 }
 .heading {
   background-color: white;
